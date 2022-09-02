@@ -52,10 +52,9 @@ body {
 }
 
 h2 span {
-    font-size: 48px ;
-    font-weight: 800;
-    float: left;
-    padding-bottom: 50px;
+    font-size: 68px ;
+    font-weight: 500;
+    ;
     
     
 }
@@ -64,22 +63,21 @@ h3 span {
     font-size: 22px;
     font-weight: 15;
     color: #57534e;
-    padding-right: 700px;
-    margin-bottom: 200px;
-    float: left;
-   
     
+    margin-bottom: 1800px;
+ 
 }
 
 .menu-lesson {
-    display: flex;
+    
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
-   
     background-color: #f97316;
     color: white;
     font-size: 22px;
+    margin-top: 1800px;
+   
 }
 
 .container {
@@ -107,6 +105,7 @@ p1 {
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    
     
     
 }
@@ -254,6 +253,19 @@ p7 {
     align-items: center
     
 }
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #fafaf9;
+    border-width: 0.6px;
+    margin-bottom: 140px;
+
+}
+
+
+
 
 
 button {
