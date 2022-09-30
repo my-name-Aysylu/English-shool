@@ -33,7 +33,20 @@ body {
 .telephone {
     width: 30px;   
     height: 30px;
-    
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .menu-button  {
+        justify-content: center;
+                 } 
+}
+@media (max-width: 425px) {
+    .telepnone  {
+        justify-content: center;
+     display: flex;
+     flex-wrap: wrap;
+                 } 
 }
 
 
@@ -82,6 +95,10 @@ h3 span {
 
 .container {
     margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -104,7 +121,8 @@ p1 {
     color: white;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+   
+    
     
     
     
@@ -117,9 +135,14 @@ p1 {
     height: 200px;
     padding: 0 15px;
     display: flex;
-    gap: 30px;
+    gap: 30px;  
+}
+
+@media (max-width: 425px) {
+    .container-block {
+        flex-wrap: wrap;
+         } 
     
-   
 }
 
 .container-block1 {
@@ -127,6 +150,10 @@ p1 {
     padding: 10px 20px 10px 20px;
     background-color: #fafaf9;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -165,6 +192,14 @@ p3 {
 .item {
     margin-top: 100px; 
 }
+
+@media (max-width: 425px) {
+    .item-menu {
+        flex-wrap: wrap;
+         } 
+    
+}
+
 
 p4 {
     max-width: 1024px;
@@ -280,8 +315,6 @@ button {
 
 .menu-reviews {
        background-color: #fafaf9;
-
-    
 }
 
 p8 {
@@ -294,20 +327,40 @@ p8 {
     justify-content: center;
     font-size: 34px;
     padding-top: 80px;
-   
-
 }
 
 .item-reviews {
     max-width: 1024px;
     margin: 0 auto;
     width: 100%;
-    
     padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
 }
 
+@media (max-width: 425px) {
+    .item-reviews {
+        justify-content: center;
+           padding: 0 15px;
+   
+    display: inline;
+    
+    }
+ }
+ @media (max-width: 425px) {
+    .reviews-name {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+ }
+ 
+ @media (max-width: 425px) {
+    .reviews {
+        padding-right: 0;
+        padding-left: 0px;
+    }
+ }
 .reviews-name {
     font-size: 18px;
     display: flex;
@@ -372,6 +425,11 @@ p9 {
    
 }
 
+@media (max-width: 425px) {
+   .season-ticket {
+    flex-wrap: wrap;
+   }
+}
 ul {
 list-style-image: url(check_mark_icon.png);
 }
@@ -408,9 +466,8 @@ p15 {
     background-color: #d6d3d1;
     margin-top: 100px;
     padding-top: 100px; 
-    
-   
 }
+
 
 .contact {
     max-width: 1024px;
@@ -426,6 +483,8 @@ p15 {
     position: relative;
     
 }
+
+
 
 .instagram {
     width: 30px;   
@@ -446,6 +505,16 @@ p15 {
     padding-right: 280px;
 }
 
+@media (max-width: 425px) {
+    .contact {
+     justify-content: center;
+    }
+ }
+@media (max-width: 425px) {
+    .email {
+     justify-content: center;
+    }
+ }
 
 * {
     color: black;
