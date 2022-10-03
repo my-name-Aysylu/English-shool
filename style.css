@@ -194,10 +194,10 @@ p3 {
 }
 
 @media (max-width: 425px) {
-    .item-menu {
+    .item {
         flex-wrap: wrap;
-         } 
-    
+        margin-top: 400px;
+         }  
 }
 
 
@@ -220,6 +220,12 @@ p4 {
 
     gap: 30px;
     margin-top: 40px;
+}
+
+@media (max-width: 425px) {
+    .p4 {
+        flex-wrap: wrap;
+    }
 }
 
 .item-text {
@@ -359,6 +365,7 @@ p8 {
     .reviews {
         padding-right: 0;
         padding-left: 0px;
+        justify-content: center;
     }
  }
 .reviews-name {
@@ -428,6 +435,7 @@ p9 {
 @media (max-width: 425px) {
    .season-ticket {
     flex-wrap: wrap;
+justify-content: center;
    }
 }
 ul {
